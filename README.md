@@ -5,7 +5,7 @@
 <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> Works on any Linux Distribution**
 
 ## Pre-requisites:
-<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji> You must have **WGET** installed on your machine. By default, the Wget package comes pre-installed in most Linux operating systems. If not, then install it using your system's distro pkg manager.
+<g-emoji class="g-emoji" alias="warning" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png">⚠️</g-emoji> You must have **WGET** installed on your machine. By default, the Wget package comes pre-installed in most Linux operating systems. If not, then install it using your system's distro pkg manager. (i.e. `sudo apt install wget`)
 
 
 #### :star: Single Line Command (Bash):

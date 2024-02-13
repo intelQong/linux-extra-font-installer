@@ -8,7 +8,7 @@ echo "|    Linux Fonts Installer     |"
 echo "|  https://github.com/ujaRHR   |"
 echo "|                              |"
 echo "--------------------------------${normal}"
-
+echo " Updated by IntelQong "
 echo ""
 echo "Checking if all tools are installed..."
 
@@ -19,7 +19,7 @@ then
     # If package manager is apt, then install wget using apt
     if ! command -v apt &> /dev/null
     then
-      sudo yum -y install wget
+      sudo dnf -y install wget
       echo "✓ Successfully installed wget!"
     # If package manager is yum, then install wget using yum
     elif ! command -v yum &> /dev/null
@@ -31,11 +31,11 @@ then
       echo "✗ Please install wget manually!"
     fi
 else
-  echo "✓ Already Installed. Woah!"
+  echo "Dependency fulfilled "
 fi
 
 
-fetchFonts="https://raw.githubusercontent.com/ujarhr/linux-font-installer/main/root/fonts.tar.xz"
+fetchFonts="https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/root/fonts.tar.xz"
 fontsDir="/home/$USER/.fonts"
 
 # Check if the directory exists, if not, then create it.
@@ -67,3 +67,5 @@ echo -e "✓ Please restart your computer to see the changes.\n"
 echo -e "❤ ${normal}Thank you for using Linux Fonts Installer!"
 echo -e "❤ Created by Reajul Hasan Raju"
 echo -e "❤ https://github.com/ujaRHR"
+echo -e "❤ Updated by Mahmudul H. Khan(IntelQong)"
+

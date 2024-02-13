@@ -2,7 +2,6 @@
 <p align="center"><g-emoji class="g-emoji" alias="penguin" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f427.png">🐧</g-emoji> This tool can be used to easily install essential fonts on any Linux Distribution.</p>
 
 **<g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> One command installation <br>
-<g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> Beginner friendly <br>
 <g-emoji class="g-emoji" alias="heavy_check_mark" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png">✔</g-emoji> Works on any Linux Distribution**
 
 ## Pre-requisites:
@@ -13,7 +12,8 @@
 Just run this command on your terminal...
 
 `wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
-
+#### Microsoft fonts(Debian based systems):
+sudo apt install ttf-mscorefonts-installer -y
 #### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>

@@ -11,9 +11,9 @@
 #### :star: Single Line Command (Bash):
 Just run this command on your terminal...
 
+`wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
+#### For Debian based systems:
 `wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo apt install ttf-mscorefonts-installer -y`
-#### Microsoft fonts(Debian based systems):
-`sudo apt install ttf-mscorefonts-installer -y`
 #### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>

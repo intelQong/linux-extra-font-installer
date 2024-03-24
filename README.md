@@ -15,7 +15,7 @@ Just run this command on your terminal...
 #### :star: For Debian based systems: 
 `wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo apt install ttf-mscorefonts-installer -y`
 #### :star: For Redhat based systems: 
-`wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo dnf install mscore-fonts-all`
+`wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo dnf upgrade --refresh -y; sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y; sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm; sudo dnf autoremove msttcore-fonts-installer`
 #### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>

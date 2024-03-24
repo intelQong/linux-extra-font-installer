@@ -13,7 +13,7 @@ Just run this command on your terminal...
 
 `wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh`
 #### :star: For Debian based systems: 
-`wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo apt install ttf-mscorefonts-installer -y`
+`wget -q --show-progress https://raw.githubusercontent.com/intelqong/linux-extra-font-installer/main/install.sh -O install.sh; chmod +x install.sh; bash install.sh; rm install.sh; sudo apt install ttf-mscorefonts-installer -y; sudo dnf install mscore-fonts-all`
 #### :star: Manual Installation (Bash):
 
 *   Clone this repository. <br>

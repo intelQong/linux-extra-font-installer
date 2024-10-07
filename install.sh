@@ -48,7 +48,7 @@ fi
 echo -e "↻ Downloading file...\n"
 
 cd $fontsDir;
-/usr/bin/wget -q --show-progress $fetchFonts
+/usr/bin/wget -q $fetchFonts
 
 # Check if the file exists and extract it
 cd $fontsDir"/"

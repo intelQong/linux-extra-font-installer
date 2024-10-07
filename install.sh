@@ -67,5 +67,5 @@ echo -e "✓ Please restart your computer to see the changes.\n"
 echo -e "❤ ${normal}Thank you for using Linux Extra Fonts Installer!"
 echo -e "❤ Created by Reajul Hasan Raju"
 echo -e "❤ https://github.com/ujaRHR"
-echo -e "❤ Updated by Mahmudul H. Khan(IntelQong)"
+echo -e "❤ Updated by intelQong"
 

@@ -8,7 +8,7 @@ echo "|    Linux Fonts Installer     |"
 echo "|  https://github.com/ujaRHR   |"
 echo "|                              |"
 echo "--------------------------------${normal}"
-echo " Updated by IntelQong "
+echo " Forked by intelQong "
 echo ""
 echo "Checking if all tools are installed..."
 
